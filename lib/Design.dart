@@ -3,7 +3,6 @@ import 'package:flutter/material.dart';
 import 'package:flutter/painting.dart';
 import 'package:responsive_container/responsive_container.dart';
 import 'AboutSheet.dart';
-import 'EditProfile.dart';
 import 'TimeLineSheet.dart';
 
 class Design extends StatefulWidget {
@@ -11,7 +10,8 @@ class Design extends StatefulWidget {
   _DesignState createState() => _DesignState();
 }
 
-class _DesignState extends State<Design> {
+class _DesignState extends State<Design> with SingleTickerProviderStateMixin{
+
   void _showEditProfileSheet() {
     showModalBottomSheet(
         isScrollControlled: true,
