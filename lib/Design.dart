@@ -1,6 +1,7 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/painting.dart';
+import 'package:flutter/services.dart';
 import 'package:responsive_container/responsive_container.dart';
 import 'AboutSheet.dart';
 import 'TimeLineSheet.dart';
@@ -15,6 +16,7 @@ class _DesignState extends State<Design> with SingleTickerProviderStateMixin{
   void _showEditProfileSheet() {
     showModalBottomSheet(
         isScrollControlled: true,
+      isDismissible: true,
         context: context,
         builder: (builder) {
           return Scaffold(
