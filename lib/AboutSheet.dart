@@ -198,6 +198,29 @@ class _AboutSheetState extends State<AboutSheet> {
                                 widthPercent: 100.0,
                                 heightPercent: 10.0,
                                 child: Container(
+                                  child: Padding(
+                                    padding: const EdgeInsets.all(8.0),
+                                    child: Row(
+                                      mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                                      children: <Widget>[
+                                        Column(
+                                          children: <Widget>[
+                                            Text("Product Designer",style: TextStyle(
+                                              color: Colors.indigo.shade800,
+                                              fontSize: 20.0,
+                                              fontWeight: FontWeight.w900
+                                            ),),
+                                            Text("Creative company",style: TextStyle(
+                                                color: Colors.indigo.shade800,
+                                            ),),
+                                          ],
+                                        ),
+                                        Text("January 2019\nto continue",style: TextStyle(
+                                          color: Colors.indigo.shade800,
+                                        ),),
+                                      ],
+                                    ),
+                                  ),
                                   decoration: BoxDecoration(
                                       color: Colors.grey.shade200,
                                       boxShadow: [
@@ -242,6 +265,29 @@ class _AboutSheetState extends State<AboutSheet> {
                                 widthPercent: 100.0,
                                 heightPercent: 10.0,
                                 child: Container(
+                                  child: Padding(
+                                    padding: const EdgeInsets.all(8.0),
+                                    child: Row(
+                                      mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                                      children: <Widget>[
+                                        Column(
+                                          children: <Widget>[
+                                            Text("Product Designer",style: TextStyle(
+                                                color: Colors.indigo.shade800,
+                                                fontSize: 20.0,
+                                                fontWeight: FontWeight.w900
+                                            ),),
+                                            Text("Creative company",style: TextStyle(
+                                              color: Colors.indigo.shade800,
+                                            ),),
+                                          ],
+                                        ),
+                                        Text("February 2017",style: TextStyle(
+                                          color: Colors.indigo.shade800,
+                                        ),),
+                                      ],
+                                    ),
+                                  ),
                                   decoration: BoxDecoration(
                                       color: Colors.grey.shade200,
                                       boxShadow: [
