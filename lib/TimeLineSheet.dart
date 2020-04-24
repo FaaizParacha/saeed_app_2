@@ -60,7 +60,16 @@ class _TimeLineSheetState extends State<TimeLineSheet> {
                               fontSize: 30.0,
                               color: Colors.white
                           )),
-                          Icon(Icons.arrow_upward,color: Colors.white,size: 30.0,),
+                         IconButton(
+                             icon:  Icon(
+                               Icons.arrow_upward,
+                               color: Colors.white,
+                               size: 30.0,),
+                             onPressed: ()
+                             {
+
+                             }
+                         )
                         ],
                       ),
                     ),
